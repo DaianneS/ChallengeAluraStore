@@ -93,4 +93,20 @@ Para reproduzir esta análise em sua máquina local, siga os passos abaixo:
 
 1.  **Clone este repositório:**
     ```bash
-    git
+    git clone [https://github.com/NiveskZ/challenge-alura-store.git](https://github.com/NiveskZ/challenge-alura-store.git)
+    cd challenge-alura-store
+    ```
+
+2.  **Instale as dependências:**
+    É recomendado criar um ambiente virtual. Após ativá-lo, instale as bibliotecas:
+    ```bash
+    pip install pandas matplotlib seaborn jupyterlab
+    ```
+
+3.  **Execute o Notebook:**
+    -   Certifique-se de que os arquivos de dados estejam na pasta `/dados/`.
+    -   Inicie o servidor Jupyter:
+        ```bash
+        jupyter lab
+        ```
+    -   Abra o arquivo `analise_lojas.ipynb` e execute as células.
